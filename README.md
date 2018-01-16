@@ -19,6 +19,7 @@ Have a look at the `src` folder to see code examples.
 * No support for other pre/postprocessors like [Less](http://lesscss.org/) or [PostCSS](http://postcss.org/) yet on React Native (planned).
 * No hot loading for Sass `@import`s yet.
 * No `:global` styling for CSS modules on React Native.
+* No support for using [classnames](https://github.com/JedWatson/classnames) module for multiple classnames (`classnames` outputs classnames as a string).
 * No way to pass options to Sass (`node-sass`) yet (planned).
 * No Typescript types that allow you to use `className` for React Native elements yet (planned).
 * CSS styling is limited to what React Native supports for styling: https://github.com/vhpoet/react-native-styling-cheat-sheet
