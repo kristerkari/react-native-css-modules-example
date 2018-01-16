@@ -22,6 +22,7 @@ Have a look at the `src` folder to see code examples.
 * No support for using [classnames](https://github.com/JedWatson/classnames) module for multiple classnames (`classnames` outputs classnames as a string).
 * No way to pass options to Sass (`node-sass`) yet (planned).
 * No Typescript types that allow you to use `className` for React Native elements yet (planned).
+* No way to use both `.css` and `.scss` extensions in a single project yet (planned).
 * CSS styling is limited to what React Native supports for styling: https://github.com/vhpoet/react-native-styling-cheat-sheet
 
 ## Setup
