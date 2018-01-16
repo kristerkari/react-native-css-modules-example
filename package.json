@@ -5,9 +5,9 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "run-web": "webpack-dev-server",
-    "run-ios": "react-native run-ios",
-    "run-android": "react-native run-android"
+    "web": "webpack-dev-server",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
   },
   "dependencies": {
     "lodash": "^4.17.4",
