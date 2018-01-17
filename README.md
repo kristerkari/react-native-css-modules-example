@@ -4,6 +4,9 @@ A simple example app that shows how you can use CSS modules with React Native an
 
 Have a look at the `src` folder to see code examples.
 
+Have a look at the documentation if you want to add React Native CSS modules to your own project:
+https://github.com/kristerkari/react-native-css-modules
+
 ## Example App features
 
 * Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules) for the web version. Uses a few tools to transform CSS modules syntax to [React Native style objects](https://facebook.github.io/react-native/docs/style.html).
