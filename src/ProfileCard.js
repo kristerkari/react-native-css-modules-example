@@ -35,9 +35,7 @@ export const ProfileCard = () => {
             </View>
             <View className={styles.statsRight}>
               <Text className={styles.statsText}>Enemies</Text>
-              <Text
-                className={[styles.statsText, styles.statsTextBold].join(" ")}
-              >
+              <Text className={`${styles.statsText} ${styles.statsTextBold}`}>
                 1
               </Text>
             </View>

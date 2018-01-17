@@ -22,7 +22,7 @@
     "autoprefixer": "^7.2.5",
     "babel-jest": "22.0.4",
     "babel-loader": "^7.1.2",
-    "babel-plugin-react-native-classname-to-style": "^1.1.0",
+    "babel-plugin-react-native-classname-to-style": "^1.2.0",
     "babel-plugin-react-native-platform-specific-extensions": "^1.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
