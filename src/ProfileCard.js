@@ -27,11 +27,19 @@ export const ProfileCard = () => {
           <View className={styles.stats}>
             <View className={styles.statsLeft}>
               <Text className={styles.statsText}>Friends</Text>
-              <Text className={styles.statsTextBold}>12M</Text>
+              <Text
+                className={[styles.statsText, styles.statsTextBold].join(" ")}
+              >
+                12M
+              </Text>
             </View>
             <View className={styles.statsRight}>
               <Text className={styles.statsText}>Enemies</Text>
-              <Text className={styles.statsTextBold}>1</Text>
+              <Text
+                className={[styles.statsText, styles.statsTextBold].join(" ")}
+              >
+                1
+              </Text>
             </View>
           </View>
         </View>
