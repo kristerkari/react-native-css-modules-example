@@ -12,13 +12,13 @@ https://github.com/kristerkari/react-native-css-modules
 * Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules) for the web version. Uses a few tools to transform CSS modules syntax to [React Native style objects](https://facebook.github.io/react-native/docs/style.html).
 * Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
+* [Supports two syntaxes for using multiple classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
 * It uses Sass and CSS for styles, but you can choose which one to use.
 * You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
 * CSS Hot reloading for both React Native and Web
 
 ## Limitations
 
-* Limited support for [multiple classes syntax](https://github.com/css-modules/css-modules/issues/31) for `className`. Only `[styles.class1, styles.class2].join(" ")` syntax is supported currently (better support coming soon).
 * No support for other pre/postprocessors like [Less](http://lesscss.org/) or [PostCSS](http://postcss.org/) yet on React Native (planned).
 * No hot loading for Sass files that are imported with `@import` yet.
 * No `:global` or `:local` keywords for CSS modules with React Native.
