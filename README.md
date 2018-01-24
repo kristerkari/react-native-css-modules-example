@@ -13,7 +13,7 @@ https://github.com/kristerkari/react-native-css-modules
 * Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
 * [Supports two syntaxes for using multiple classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
-* It uses Sass and CSS for styles, but you can choose which one to use.
+* It uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
 * You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
 * CSS Hot reloading for both React Native and Web
 
