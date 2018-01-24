@@ -1985,9 +1985,9 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.0.5.tgz#cc1a930659529f1674222975e326329d56c2f77b"
+css-to-react-native-transform@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.0.6.tgz#02521dd26dc738282405c38fea9739370f1eb21f"
   dependencies:
     css "^2.2.1"
     css-to-react-native "^2.0.4"
@@ -5982,15 +5982,22 @@ react-hot-loader@^4.0.0-beta.14:
     redbox-react "^1.3.6"
     source-map "^0.6.1"
 
+react-native-css-transformer@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.0.4.tgz#6a50bcd4b345b239a45e96c073bfbbb185dc7a7f"
+  dependencies:
+    css-to-react-native-transform "^1.0.6"
+    semver "^5.4.1"
+
 react-native-fontawesome@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-native-fontawesome/-/react-native-fontawesome-5.7.0.tgz#7bfe57c21c6522d05eaf206474903c3f299bfc0d"
 
-react-native-sass-transformer@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.3.tgz#174b8df86cfa73e3c41f007131e1ee52803dc6ce"
+react-native-sass-transformer@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.4.tgz#49c306b20e7ef100fd860c738bcb5ee2d6ec2cf8"
   dependencies:
-    css-to-react-native-transform "^1.0.5"
+    css-to-react-native-transform "^1.0.6"
     semver "^5.4.1"
 
 react-native-web@^0.3.0:

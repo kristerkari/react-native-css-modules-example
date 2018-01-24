@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, Linking } from "react-native";
-import styles from "./ProfileCard.scss";
+import styles from "./ProfileCard.css";
 import bg from "./images/iceland.jpg";
 import avatar from "./images/avatar.png";
 
