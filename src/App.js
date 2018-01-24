@@ -3,7 +3,7 @@ import { ScrollView } from "react-native";
 import { ProfileCard } from "./ProfileCard";
 import { Buttons } from "./Buttons";
 import { Link } from "./Link";
-import styles from "./App.scss";
+import styles from "./App.css";
 
 export default class App extends Component {
   render() {

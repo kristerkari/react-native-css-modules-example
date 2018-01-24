@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Linking } from "react-native";
-import styles from "./Links.scss";
+import styles from "./Link.css";
 
 export const Link = ({ description, url }) => {
   return (
