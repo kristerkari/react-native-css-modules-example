@@ -16,7 +16,7 @@
     "react-fontawesome": "^1.6.1",
     "react-native": "0.53.0",
     "react-native-fontawesome": "^5.7.0",
-    "react-native-web": "^0.3.4"
+    "react-native-web": "^0.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
