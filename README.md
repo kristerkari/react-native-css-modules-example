@@ -16,14 +16,7 @@ https://github.com/kristerkari/react-native-css-modules
 * It uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
 * You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
 * CSS Hot reloading for both React Native and Web
-
-## Limitations
-
-* No hot loading for Sass files that are imported with `@import` yet.
-* No `:global` or `:local` keywords for CSS modules with React Native.
-* No support for using [classnames](https://github.com/JedWatson/classnames) module for multiple classnames (`classnames` outputs classnames as a string).
-* No way to pass options to Sass (`node-sass`) yet (planned).
-* CSS styling is limited to what React Native supports for styling: https://github.com/vhpoet/react-native-styling-cheat-sheet
+* [Stylelint rules for React Native styling](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 ## Setup
 
