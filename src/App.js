@@ -8,7 +8,7 @@ import styles from "./App.css";
 export default class App extends Component {
   render() {
     return (
-      <ScrollView className={styles.wrapper} style={{}}>
+      <ScrollView className={styles.wrapper}>
         <Link
           description="Profile card from"
           url="https://themes.getbootstrap.com/products/application"

@@ -8,7 +8,7 @@ const colors = ["green", "pink", "dark", "orange", "red", "black"];
 
 const Button = (color, index) => {
   return (
-    <View className={styles.buttonWrapper} style={{}} key={index}>
+    <View className={styles.buttonWrapper} key={index}>
       <TouchableHighlight className={styles["button" + titleCase(color)]}>
         <View className={styles.innerWrapper}>
           <View className={styles["icon" + titleCase(color)]}>

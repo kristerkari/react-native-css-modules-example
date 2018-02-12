@@ -4,7 +4,7 @@ import styles from "./Link.css";
 
 export const Link = ({ description, url }) => {
   return (
-    <View className={styles.description} style={{}}>
+    <View className={styles.description}>
       <Text className={styles.descriptionText}>
         {description + ":\n"}
         <Text
