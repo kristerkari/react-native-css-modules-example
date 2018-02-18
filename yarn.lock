@@ -2076,16 +2076,16 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.0.7.tgz#bb46296c8d09a290f04b38525269d4977ec5b0a9"
+css-to-react-native-transform@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.0.8.tgz#59a2f4c9bb08dab0f383991d9edbe8e6678c4bb2"
   dependencies:
     css "^2.2.1"
-    css-to-react-native "^2.1.1"
+    css-to-react-native "^2.1.2"
 
-css-to-react-native@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.1.1.tgz#ea0f6ca3cdbc37cb40f3f4f55b49d3bb28b8a43e"
+css-to-react-native@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.1.2.tgz#c06d628467ef961c85ec358a90f3c87469fb0095"
   dependencies:
     css-color-keywords "^1.0.0"
     fbjs "^0.8.5"
@@ -6450,11 +6450,11 @@ react-hot-loader@^4.0.0-beta.14:
     redbox-react "^1.3.6"
     source-map "^0.6.1"
 
-react-native-css-transformer@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.0.5.tgz#01d727a2d5939dfdc3040205463593183a5f6473"
+react-native-css-transformer@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.0.6.tgz#8116f7f1a4cf4e834c9994acd43bff170dc9cee9"
   dependencies:
-    css-to-react-native-transform "^1.0.7"
+    css-to-react-native-transform "^1.0.8"
     semver "^5.4.1"
 
 react-native-fontawesome@^5.7.0:
@@ -6465,11 +6465,11 @@ react-native-known-styling-properties@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.2.tgz#b932875a3a5c61ab5183b0090a17148fb330e858"
 
-react-native-sass-transformer@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.5.tgz#2693a0458c3251fbaeac563eac8bd908ad13fc89"
+react-native-sass-transformer@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.6.tgz#486ce3548ae7ed4a83147e8bf374398c1563393d"
   dependencies:
-    css-to-react-native-transform "^1.0.7"
+    css-to-react-native-transform "^1.0.8"
     semver "^5.4.1"
 
 react-native-web@^0.4.0:
