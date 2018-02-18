@@ -7,7 +7,5 @@ AppRegistry.runApplication("CSSModulesExample", {
 });
 
 if (module.hot) {
-  module.hot.accept("./src/App", () => {
-    render(App);
-  });
+  module.hot.accept("./src/App");
 }
