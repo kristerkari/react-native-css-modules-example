@@ -46,6 +46,13 @@
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^3.1.0"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11",
+    "Android >= 4.4",
+    "iOS >= 8"
+  ],
   "jest": {
     "preset": "react-native"
   }
