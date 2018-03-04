@@ -1,6 +1,6 @@
 # React Native CSS modules example
 
-<img src="images/react-native-logo.png" width="160"><img src="images/plus.svg" width="100"><img src="images/css-modules-logo.svg" width="170">
+<a href="https://facebook.github.io/react-native/"><img src="images/react-native-logo.png" width="160"></a><img src="images/plus.svg" width="100"><a href="https://github.com/css-modules/css-modules"><img src="images/css-modules-logo.svg" width="170"></a>
 
 A simple example app that shows how you can use CSS modules with React Native and React (for browser).
 
