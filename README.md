@@ -88,4 +88,4 @@ yarn ios
 
 **iOS - Android - Web**
 
-<img src="screenshots/ios.png" width="33.3333%"><img src="screenshots/android.png" width="33.3333%"><img src="screenshots/web2.png" width="33.3333%">
+<img src="screenshots/ios.png" width="33.3333%"><img src="screenshots/android.png" width="33.3333%"><img src="screenshots/web3.png" width="33.3333%">
