@@ -1,4 +1,4 @@
-# React Native CSS modules
+# React Native + CSS modules
 
 A simple example app that shows how you can use CSS modules with React Native and React (for browser).
 
