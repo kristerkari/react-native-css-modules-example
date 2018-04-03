@@ -76,6 +76,8 @@ or
 npm run web
 ```
 
+Web app can be accessed by opening `http://localhost:8080` in a browser.
+
 or if you use Yarn:
 
 ```sh
