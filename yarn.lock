@@ -7651,9 +7651,9 @@ react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
 
-react-native-sass-transformer@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.1.0.tgz#75d484c21fa099055a533e0fc5e70dfc8d68e2b3"
+react-native-sass-transformer@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.1.1.tgz#1f30f12812d9a9b816bca21eea5503a2bc6c15b0"
   dependencies:
     css-to-react-native-transform "^1.4.0"
     semver "^5.4.1"
