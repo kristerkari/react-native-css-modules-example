@@ -11,11 +11,11 @@
     "android": "react-native run-android"
   },
   "dependencies": {
-    "react": "^16.3.0-alpha.1",
+    "react": "16.3.1",
     "react-art": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-fontawesome": "^1.6.1",
-    "react-native": "0.54.4",
+    "react-native": "0.55.3",
     "react-native-fontawesome": "^5.7.0",
     "react-native-web": "^0.6.0"
   },

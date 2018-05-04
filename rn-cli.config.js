@@ -3,6 +3,6 @@ module.exports = {
     return require.resolve("./rn-transformer.js");
   },
   getSourceExts() {
-    return ["scss", "css"];
-  },
+    return ["js", "jsx", "scss", "css"];
+  }
 };
