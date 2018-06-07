@@ -23,7 +23,7 @@ Have a look at the [src](/src) folder to see code examples.
 #### React Native specific
 
 - :package: Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
-- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
+- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
 
 #### Web specific
 
