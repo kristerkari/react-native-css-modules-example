@@ -16,7 +16,7 @@ Have a look at the [src](/src) folder to see code examples.
 #### React Native and Web
 
 - :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
-- :fire: CSS Hot loading.
+- :fire: CSS Hot loading (live reloading).
 - :ok_hand: Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles
 - :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
