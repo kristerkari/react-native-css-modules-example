@@ -67,6 +67,7 @@
       "unit-whitelist": [
         "px",
         "rem",
+        "deg",
         "%"
       ],
       "no-eol-whitespace": true,
