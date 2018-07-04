@@ -809,9 +809,9 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-app-root-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.0.1.tgz#cd62dcf8e4fd5a417efc664d2e5b10653c651b46"
+app-root-path@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.1.0.tgz#98bf6599327ecea199309866e8140368fd2e646a"
 
 append-transform@^0.4.0:
   version "0.4.0"
@@ -2775,7 +2775,7 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.6.0:
+css-to-react-native-transform@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.7.0.tgz#1e12deb806644be88583ac3751fad68b0e321437"
   dependencies:
@@ -7611,11 +7611,11 @@ react-is@^16.4.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
-react-native-css-transformer@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.1.tgz#423e92a132b3a6fac645545a757efc0ef49f4216"
+react-native-css-transformer@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.2.tgz#cc287396be7735cdc601b52c91480eaaa3aca8f7"
   dependencies:
-    css-to-react-native-transform "^1.6.0"
+    css-to-react-native-transform "^1.7.0"
     semver "^5.5.0"
 
 react-native-fontawesome@^5.7.0:
@@ -7626,12 +7626,12 @@ react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
 
-react-native-sass-transformer@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.2.1.tgz#b1038d11a52e6e4b758e3f578f5cab941a104f4b"
+react-native-sass-transformer@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.2.2.tgz#cdbf44223d10d289dd95663689af2c35c92448f2"
   dependencies:
-    app-root-path "^2.0.1"
-    css-to-react-native-transform "^1.6.0"
+    app-root-path "^2.1.0"
+    css-to-react-native-transform "^1.7.0"
     semver "^5.5.0"
 
 react-native-web@^0.8.6:
