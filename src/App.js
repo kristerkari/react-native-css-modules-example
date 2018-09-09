@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { SafeAreaView, ScrollView } from "react-native";
-import { ProfileCard } from "./ProfileCard";
+import styles from "./App.css";
 import { Buttons } from "./Buttons";
 import { Link } from "./Link";
-import styles from "./App.css";
+import { ProfileCard } from "./ProfileCard";
 
 export default class App extends Component {
   render() {
