@@ -44,8 +44,8 @@
     "react-test-renderer": "16.5.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
-    "stylelint": "^9.5.0",
-    "stylelint-config-react-native-css-modules": "^1.4.1",
+    "stylelint": "^9.6.0",
+    "stylelint-config-react-native-css-modules": "^2.0.0",
     "stylelint-react-native": "^2.0.0",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0",
@@ -69,7 +69,7 @@
   "eslintConfig": {
     "parserOptions": {
       "sourceType": "module",
-      "ecmaVersion": 6,
+      "ecmaVersion": 2017,
       "ecmaFeatures": {
         "jsx": true
       }
@@ -88,12 +88,6 @@
       "declaration-block-no-duplicate-properties": true,
       "no-duplicate-selectors": true,
       "no-extra-semicolons": true,
-      "unit-whitelist": [
-        "px",
-        "rem",
-        "deg",
-        "%"
-      ],
       "no-eol-whitespace": true,
       "no-missing-end-of-source-newline": true
     }
