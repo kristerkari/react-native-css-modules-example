@@ -44,9 +44,9 @@
     "react-test-renderer": "16.5.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
-    "stylelint": "^9.6.0",
-    "stylelint-config-react-native-css-modules": "^2.0.1",
-    "stylelint-react-native": "^2.0.0",
+    "stylelint": "^9.9.0",
+    "stylelint-config-react-native-css-modules": "^2.1.0",
+    "stylelint-react-native": "^2.0.1",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
