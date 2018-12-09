@@ -11,7 +11,7 @@
   background-color: lighten($color, 4%);
 }
 
-.buttonsWrapper {
+.wrapper {
   flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,6 +21,11 @@
   height: 32px;
   margin-bottom: 12px;
   margin-right: 20px;
+}
+
+.color {
+  width: 6px;
+  height: 6px;
 }
 
 .button {

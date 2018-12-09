@@ -3,6 +3,7 @@ import { Text, TouchableHighlight, View } from "react-native";
 import styles from "./Buttons.scss";
 import { FontAwesome } from "./FontAwesome";
 import { titleCase } from "./utils/titleCase";
+import btnColors from "./_ButtonColors.scss";
 
 const colors = ["green", "pink", "dark", "orange", "red", "black"];
 
@@ -23,6 +24,21 @@ const Button = (color, index) => {
   );
 };
 
+const Color = (color, index) => {
+  return (
+    <View
+      className={styles.color}
+      style={{ backgroundColor: btnColors[color] }}
+      key={index}
+    />
+  );
+};
+
 export const Buttons = () => {
-  return <View className={styles.buttonsWrapper}>{colors.map(Button)}</View>;
+  return (
+    <React.Fragment>
+      <View className={styles.wrapper}>{colors.map(Button)}</View>
+      <View className={styles.wrapper}>{colors.map(Color)}</View>
+    </React.Fragment>
+  );
 };

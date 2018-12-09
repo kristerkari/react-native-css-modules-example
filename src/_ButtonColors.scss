@@ -14,3 +14,12 @@ $colors-map: (
   Red $red,
   Black $black
 );
+
+:export {
+  green: $green;
+  pink: $pink;
+  orange: $orange;
+  dark: $dark;
+  red: $red;
+  black: $black;
+}
