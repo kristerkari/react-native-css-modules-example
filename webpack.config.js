@@ -1,5 +1,4 @@
 const webpack = require("webpack");
-const path = require("path");
 
 module.exports = {
   entry: ["./polyfills", "react-hot-loader/patch", "./index.web.js"],
@@ -13,13 +12,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader",
         query: {
           babelrc: false,
           presets: [
-            "@babel/env",
+            "@babel/preset-env",
             "react",
             "module:metro-react-native-babel-preset"
           ],
