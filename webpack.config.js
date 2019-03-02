@@ -16,6 +16,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel-loader",
         query: {
+          configFile: false,
           babelrc: false,
           presets: [
             "@babel/preset-env",
