@@ -2979,7 +2979,7 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.7.0:
+css-to-react-native-transform@^1.7.0, css-to-react-native-transform@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.8.1.tgz#ec489a6f657e5fd697f5099d97b23be030abdb74"
   integrity sha512-/pLLwhIM6zcOWsfLsf9driEl0BCArNkp4ixJcuFujPNJXdricfbtgLmj9vAQNveUvWoJxSjqXYuFrPdwunwB7g==
@@ -3492,7 +3492,7 @@ escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
 
-escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.3, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
@@ -3798,7 +3798,7 @@ extend@^3.0.0, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
-extend@~3.0.2:
+extend@^3.0.1, extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
 
@@ -7643,6 +7643,15 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
 
+postcss-css-variables@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/postcss-css-variables/-/postcss-css-variables-0.12.0.tgz#0137b6ff15fb051bd29b36eabfea03472ccdd14c"
+  integrity sha512-fSgIfR+g/kZ2GeV3GH7wyNslDi7KH/Z+zwtHdEcmHv86mu+o71va9r9rqFLPR0VKi2BzoQZbCyw89oXK/XevIQ==
+  dependencies:
+    escape-string-regexp "^1.0.3"
+    extend "^3.0.1"
+    postcss "^6.0.8"
+
 postcss-html@^0.36.0:
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-0.36.0.tgz#b40913f94eaacc2453fd30a1327ad6ee1f88b204"
@@ -7778,6 +7787,15 @@ postcss-value-parser@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
+
+postcss@^6.0.8:
+  version "6.0.23"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
+  integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.4.0"
 
 postcss@^7.0.0, postcss@^7.0.2:
   version "7.0.2"
@@ -8119,14 +8137,23 @@ react-native-known-styling-properties@^1.0.4:
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.5.tgz#dd99690d579c5136541e1df836e75088af6e7356"
   integrity sha512-PKRW5v9Um2/7mIaUy2fxg3XugP/QyVoqnzpnkY6AUTIlfyC2c/PeEhDwEVJgTotWiFCIj2lUACQ2lsG5zp0NUQ==
 
-react-native-sass-transformer@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.3.2.tgz#c2813f032863b5ef4ce4ca9d7a1c3294a445cd0d"
-  integrity sha512-vo61adzZFWy6MMijwMYtwzuj1b2OyhwE2v78QpXLbX640pqLBAO21V7vvgwWpkNB/bTrtTL8pomkUltM/q6Yww==
+react-native-postcss-transformer@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-postcss-transformer/-/react-native-postcss-transformer-1.2.4.tgz#3e1c9f1c0e36764a76516c5fd584e7f10c994014"
+  integrity sha512-0CTZZTWQ3+ViryUjg3fLT81JldsRbBarXg24PbYFvEdcHdBuzv/0zh+nhHKES/kfyqLRthzmlh/Ju2wW9afBMg==
+  dependencies:
+    css-to-react-native-transform "^1.8.1"
+    postcss-load-config "^2.0.0"
+    semver "^5.6.0"
+
+react-native-sass-transformer@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.4.0.tgz#1b6a1ed6f2b6338ba42f2a46afd1f23f9ada3439"
+  integrity sha512-PlRiaJIcDzYpIVDH0OQuabkMGy/zp7N/A14rqhBrFqhADXC0xR2W53Cb7CicL9CsOL4y7Sh2dv4pgMvqgMdwqQ==
   dependencies:
     app-root-path "^2.1.0"
-    css-to-react-native-transform "^1.7.0"
-    semver "^5.5.0"
+    css-to-react-native-transform "^1.8.1"
+    semver "^5.6.0"
 
 react-native-web@^0.10.0:
   version "0.10.0"
@@ -9493,10 +9520,10 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-react-native-css-modules@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-2.1.0.tgz#362985dbc82954336f13961f112387e8bb83614e"
-  integrity sha512-UKO56zOzlLZHiaa99YxMiI/P9o/Nqy+zyhWmtMHwzwk7+KaINshrALpIX5UcnutPstaG8B64ZUhSBqvECpXtjA==
+stylelint-config-react-native-css-modules@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-2.1.1.tgz#58a25a9ab38da6d7ec03f542e48458da46becc68"
+  integrity sha512-KdoqawwVWUp3c7MH/jGYEn3KSANTWI/2HQH+LsKQw2APK6GaStj0f9KM2EFe1pQjzStmqgcbYkTNOlZNsCzJKQ==
 
 stylelint-react-native@^2.0.1:
   version "2.0.1"

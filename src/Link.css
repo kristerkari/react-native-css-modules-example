@@ -1,3 +1,7 @@
+:root {
+  --link-color: blue;
+}
+
 .description {
   margin-bottom: 12px;
 }
@@ -7,5 +11,5 @@
 }
 
 .descriptionLink {
-  color: blue;
+  color: var(--link-color);
 }

@@ -1,5 +1,9 @@
 @import "ButtonColors";
 
+:root {
+  --white-color: #fff;
+}
+
 @mixin text($color) {
   background-color: $color;
   border: 1px solid darken($color, 10%);
@@ -42,7 +46,7 @@
 }
 
 .buttonText {
-  color: #fff;
+  color: var(--white-color);
   font-size: 16px;
   line-height: 28px;
   padding-left: 10px;

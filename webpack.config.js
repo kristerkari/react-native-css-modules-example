@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const autoprefixer = require("autoprefixer");
 
 module.exports = {
   entry: ["./polyfills", "react-hot-loader/patch", "./index.web.js"],
@@ -67,7 +68,8 @@ module.exports = {
             }
           },
           {
-            loader: "postcss-loader"
+            loader: "postcss-loader",
+            options: { plugins: [autoprefixer()] }
           },
           {
             loader: "sass-loader"
