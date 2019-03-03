@@ -1,6 +1,5 @@
 var upstreamTransformer = require("metro/src/reactNativeTransformer");
 var sassTransformer = require("react-native-sass-transformer");
-var cssTransformer = require("react-native-css-transformer");
 var postCSSTransformer = require("react-native-postcss-transformer");
 
 module.exports.transform = function({ src, filename, options }) {

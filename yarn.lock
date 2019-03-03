@@ -2979,7 +2979,7 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.7.0, css-to-react-native-transform@^1.8.1:
+css-to-react-native-transform@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.8.1.tgz#ec489a6f657e5fd697f5099d97b23be030abdb74"
   integrity sha512-/pLLwhIM6zcOWsfLsf9driEl0BCArNkp4ixJcuFujPNJXdricfbtgLmj9vAQNveUvWoJxSjqXYuFrPdwunwB7g==
@@ -8119,14 +8119,6 @@ react-is@^16.6.3:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.2.tgz#09891d324cad1cb0c1f2d91f70a71a4bee34df0f"
   integrity sha512-D+NxhSR2HUCjYky1q1DwpNUD44cDpUXzSmmFyC3ug1bClcU/iDNy0YNn1iwme28fn+NFhpA13IndOd42CrFb+Q==
-
-react-native-css-transformer@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.3.tgz#20d2582572ca6e89ffb9ac619b968f2fb18dabd6"
-  integrity sha512-3/UI95d29ts3tXvWfLT6WOtBcnWAUivtLeYmqxlVnkTO5xUbmvVwlDslEymaBqgVMqFnmDMGuIrlvaQbWYQpUA==
-  dependencies:
-    css-to-react-native-transform "^1.7.0"
-    semver "^5.5.0"
 
 react-native-fontawesome@^5.7.0:
   version "5.7.0"
