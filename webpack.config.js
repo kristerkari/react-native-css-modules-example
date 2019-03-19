@@ -40,6 +40,9 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
+            loader: "@teamthread/strict-css-modules-loader"
+          },
+          {
             loader: "style-loader"
           },
           {
@@ -57,6 +60,9 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
+          {
+            loader: "@teamthread/strict-css-modules-loader"
+          },
           {
             loader: "style-loader"
           },
