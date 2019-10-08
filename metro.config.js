@@ -15,7 +15,7 @@ module.exports = (async () => {
       babelTransformerPath: require.resolve("./rn-transformer.js")
     },
     resolver: {
-      sourceExts: [...sourceExts, "scss", "css"]
+      sourceExts: [...sourceExts, "scss", "sass", "css"]
     }
   };
 })();
