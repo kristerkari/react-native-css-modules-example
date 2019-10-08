@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { SafeAreaView, ScrollView } from "react-native";
-import styles from "./App.css";
+import styles from "./App.sass";
 import { Buttons } from "./Buttons";
 import { Link } from "./Link";
 import { ProfileCard } from "./ProfileCard";

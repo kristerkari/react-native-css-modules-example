@@ -5,7 +5,7 @@ module.exports = {
     [
       "react-native-platform-specific-extensions",
       {
-        extensions: ["scss", "css"]
+        extensions: ["scss", "sass", "css"]
       }
     ]
   ]
