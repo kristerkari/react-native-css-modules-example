@@ -51,7 +51,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylelint": "^10.0.1",
-    "stylelint-config-react-native-css-modules": "^2.5.0",
+    "stylelint-config-react-native-css-modules": "^3.0.0",
     "stylelint-react-native": "^2.1.1",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
