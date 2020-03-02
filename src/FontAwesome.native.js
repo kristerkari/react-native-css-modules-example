@@ -1,7 +1,7 @@
-import React from "react";
-import { Text } from "react-native";
-import Fa, { Icons } from "react-native-fontawesome";
-import { camelCase } from "./utils/camelCase";
+import React from 'react';
+import {Text} from 'react-native';
+import Fa, {Icons} from 'react-native-fontawesome';
+import {camelCase} from './utils/camelCase';
 
 export const FontAwesome = props => {
   return (

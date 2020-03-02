@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { SafeAreaView, ScrollView } from "react-native";
-import styles from "./App.css";
-import { Buttons } from "./Buttons";
-import { Link } from "./Link";
-import { ProfileCard } from "./ProfileCard";
+import React, {Component} from 'react';
+import {SafeAreaView, ScrollView} from 'react-native';
+import styles from './App.css';
+import {Buttons} from './Buttons';
+import {Link} from './Link';
+import {ProfileCard} from './ProfileCard';
 
 export default class App extends Component {
   render() {
     return (
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView style={{flex: 1}}>
         <ScrollView className={styles.wrapper}>
           <Link
             description="Profile card from"
