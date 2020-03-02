@@ -84,6 +84,7 @@
       "css-modules"
     ],
     "extends": [
+      "@react-native-community",
       "plugin:css-modules/recommended"
     ]
   },
