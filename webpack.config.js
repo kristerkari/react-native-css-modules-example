@@ -1,30 +1,36 @@
-const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: ['./polyfills', 'react-hot-loader/patch', './index.web.js'],
   devServer: {
+    static: './',
     hot: true,
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+    }),
+    new MiniCssExtractPlugin(),
   ],
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          configFile: false,
-          babelrc: false,
-          presets: [
-            '@babel/preset-env',
-            'react',
-            'module:metro-react-native-babel-preset',
-          ],
-          plugins: ['react-hot-loader/babel'],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            configFile: false,
+            babelrc: false,
+            presets: [
+              '@babel/preset-env',
+              'react',
+              'module:metro-react-native-babel-preset',
+            ],
+            plugins: ['react-hot-loader/babel'],
+          },
         },
       },
       {
@@ -40,16 +46,14 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: '@teamthread/strict-css-modules-loader',
-          },
-          {
-            loader: 'style-loader',
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              modules: {
+                localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              },
             },
           },
           {
@@ -61,21 +65,23 @@ module.exports = {
         test: /\.scss$/,
         use: [
           {
-            loader: '@teamthread/strict-css-modules-loader',
-          },
-          {
-            loader: 'style-loader',
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              modules: {
+                localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              },
             },
           },
           {
             loader: 'postcss-loader',
-            options: {plugins: [autoprefixer()]},
+            options: {
+              postcssOptions: {
+                plugins: [autoprefixer()],
+              },
+            },
           },
           {
             loader: 'sass-loader',
