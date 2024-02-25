@@ -8295,10 +8295,10 @@ style-loader@^3.3.4:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.4.tgz#f30f786c36db03a45cbd55b6a70d930c479090e7"
   integrity sha512-0WqXzrsMTyb8yjZJHDqwmnwRJvhALK9LfRtRc6B4UTWe8AijYLZYZ9thuJTZc2VfQWINADW/j+LiJnfy2RoC1w==
 
-stylelint-config-react-native-css-modules@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-3.2.0.tgz#29791209c1382093d539579b4f833b5c4201e0ef"
-  integrity sha512-jazOAp8O5/dgd65arksG3LeX3N6G9tVL5OUZMzipUspuZY8MXIWHlV6pQi4UKEINMskpjY45R/gfVS52JyYlPw==
+stylelint-config-react-native-css-modules@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-3.3.0.tgz#450ea93ea16ea6c366b55773dc45e35c32ab07ee"
+  integrity sha512-vOMZasmetMI4Ew/tvlz1JGkf8/jmdvAlAkyQOc7qpr4Qm08AIh1hYReaty6x/ZubLXdd/BsKeFl1/t9D15oyNg==
   dependencies:
     compare-versions "^6.0.0"
 
