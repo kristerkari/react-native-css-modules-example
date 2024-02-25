@@ -27,7 +27,7 @@ module.exports = {
             presets: [
               '@babel/preset-env',
               'react',
-              'module:metro-react-native-babel-preset',
+              'module:@react-native/babel-preset',
             ],
             plugins: ['react-hot-loader/babel'],
           },

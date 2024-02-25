@@ -1,4 +1,4 @@
-var upstreamTransformer = require('metro-react-native-babel-transformer');
+var upstreamTransformer = require('@react-native/metro-babel-transformer');
 var sassTransformer = require('react-native-sass-transformer');
 var postCSSTransformer = require('react-native-postcss-transformer');
 
