@@ -52,7 +52,7 @@
     "react-native-postcss-transformer": "^2.0.0",
     "react-native-sass-transformer": "^3.0.0",
     "react-test-renderer": "18.2.0",
-    "sass": "^1.71.1",
+    "sass": "^1.77.4",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.4",
     "stylelint": "^16.2.1",
