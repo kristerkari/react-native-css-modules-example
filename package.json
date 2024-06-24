@@ -47,7 +47,7 @@
     "postcss-css-variables": "^0.19.0",
     "postcss-loader": "^8.1.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "3.2.5",
+    "prettier": "3.3.2",
     "react-hot-loader": "^4.13.1",
     "react-native-postcss-transformer": "^2.0.0",
     "react-native-sass-transformer": "^3.0.0",
